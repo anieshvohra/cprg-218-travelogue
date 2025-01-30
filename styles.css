@@ -4,6 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Apply a dark theme to the website with stylish fonts */
+body {
+    font-family: 'Raleway', sans-serif; /* Use Raleway font for a modern look */
+    background-color: #121212; /* Set a dark background color */
+    color: #ffffff; /* Use white text for contrast */
+    text-align: center; /* Center-align all text */
+}
 /* Header styling */
 header {
     background: #1f1f1f; /* Slightly lighter dark background for contrast */
@@ -14,3 +21,17 @@ header {
     left: 0;
     z-index: 1000; /* Ensure it stays above all content */
 }
+/* Main content styling */
+main {
+    margin-top: 100px; /* Prevent content from hiding under the fixed header */
+}
+/* Image styling */
+img {
+    width: 80%; /* Ensure images are responsive */
+    max-width: 600px; /* Limit image size for better readability */
+    border-radius: 10px; /* Add rounded corners for a smooth look */
+    margin: 20px 0; /* Add spacing around images */
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2); /* Add a soft glow effect */
+}
+
+
