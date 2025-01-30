@@ -25,6 +25,13 @@ header {
 main {
     margin-top: 100px; /* Prevent content from hiding under the fixed header */
 }
+
+/* Styling for each travel section */
+section {
+    padding: 50px 20px; /* Add padding to sections */
+    border-bottom: 1px solid #444; /* Add a subtle border to separate sections */
+}
+
 /* Image styling */
 img {
     width: 80%; /* Ensure images are responsive */
