@@ -1,0 +1,16 @@
+/* Reset default browser styles to ensure consistency across different devices */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header styling */
+header {
+    background: #1f1f1f; /* Slightly lighter dark background for contrast */
+    padding: 20px;
+    position: fixed; /* Keep the header fixed at the top of the page */
+    width: 100%; /* Ensure it stretches across the full width */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it stays above all content */
+}
