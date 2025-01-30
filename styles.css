@@ -56,3 +56,9 @@ a:hover {
     text-decoration: underline; /* Underline links on hover */
 }
 
+/* Footer styling */
+footer {
+    background: #1f1f1f; /* Dark footer for contrast */
+    padding: 10px;
+    margin-top: 20px;
+}
